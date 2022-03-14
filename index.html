@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css" />
+    <title>Welcome</title>
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="bg-prim px-4">
+        <nav class="d-flex flex-column flex-md-row justify-content-between align-items-center fw-bold">
+            <a class="navbar-brand text-white text-shadow2" href="./index.html">
+                <img src="Assets/Images/group-2.svg" alt="Event logo" width="100" height="30" /> [Events]
+            </a>
+
+            <div>
+                <!-- Search -->
+                <a class="text-white text-decoration-none" href="./search.html">
+                    <svg class="i-size-2 fill-white" version="1.1" viewBox="0 0 700 700"><path d="m567.84 451.92-0.55859-0.55859-119.28-119.29c20.719-29.68 31.359-64.961 31.359-100.8 0-98-80.078-178.08-178.08-178.08s-178.08 80.082-178.08 178.08 80.078 178.08 178.08 178.08c35.84 0 71.121-11.199 100.8-31.359l119.28 119.28c12.32 12.879 33.039 13.441 45.922 0.55859 12.32-12.32 12.879-33.039 0.55859-45.918zm-266.56-90.723c-71.68 0-129.92-58.238-129.92-129.92 0-71.68 58.238-129.92 129.92-129.92 71.68 0 129.92 58.238 129.92 129.92-0.003906 71.684-58.242 129.92-129.92 129.92z"
+                    />
+                    </svg>
+                    <span class="d-none d-md-inline">Search</span>
+                </a>
+
+                <!-- About -->
+                <a class="text-white text-decoration-none" href="./about.html">
+                    <svg class="i-size-2 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z"/></svg>
+                    <span class="d-none d-md-inline">About</span>
+                </a>
+
+                <!-- Blog -->
+                <a class="text-white text-decoration-none" href="">
+                    <svg class="i-size-2 fill-white" version="1.1" viewBox="0 0 700 700">
+                        <g><path d="m214.79 375.35c-14.086 0-26.051 4.9297-35.91 14.785-9.8555 9.8594-14.785 21.828-14.785 35.906 0 14.086 4.9258 26.051 14.785 35.91 9.8594 9.8555 21.828 14.785 35.91 14.785s26.051-4.9297 35.906-14.785c9.8555-9.8594 14.785-21.824 14.785-35.91 0-14.082-4.9297-26.051-14.785-35.906-9.8555-9.8555-21.82-14.785-35.906-14.785z" /><path d="m331.5 309.34c-19.891-20.066-42.688-36.039-68.387-47.922-25.699-11.883-52.633-18.969-80.793-21.258h-1.3203c-4.5742 0-8.3594 1.4961-11.352 4.4883-3.6992 3.168-5.543 7.3047-5.543 12.41l-0.003906 35.645c0 4.3984 1.4531 8.1836 4.3555 11.352 2.9023 3.1719 6.5547 4.9336 10.957 5.2812 40.309 3.8711 74.766 20.113 103.37 48.715 28.602 28.598 44.844 63.059 48.715 103.37 0.35156 4.4023 2.1133 8.0547 5.2812 10.957 3.168 2.9062 6.9531 4.3633 11.352 4.3633h35.645c5.1055 0 9.2383-1.8477 12.41-5.543 3.3438-3.5273 4.8398-7.75 4.4961-12.68-2.293-28.16-9.3789-55.094-21.258-80.793-11.883-25.695-27.855-48.492-47.922-68.383z" /><path d="m504.17 326.63c-18.836-42.16-44.711-79.605-77.625-112.35-32.742-32.918-70.188-58.789-112.35-77.625-42.156-18.832-86.293-29.398-132.41-31.684l-0.78906-0.003906c-4.5742 0-8.4492 1.5859-11.617 4.7539-3.5195 3.168-5.2773 7.2188-5.2773 12.145v37.754c0 4.4023 1.543 8.2266 4.6211 11.484s6.8203 4.9727 11.219 5.1484c37.844 2.293 73.797 11.27 107.86 26.938 34.059 15.664 63.633 36.039 88.715 61.121 25.082 25.082 45.453 54.656 61.121 88.715 15.664 34.066 24.559 70.012 26.668 107.86 0.17969 4.4023 1.8945 8.1445 5.1445 11.223 3.2617 3.0781 7.1797 4.625 11.754 4.625h37.754c4.9297 0 8.9688-1.7578 12.145-5.2852 3.5234-3.5195 5.1016-7.6523 4.7578-12.406-2.2891-46.117-12.852-90.258-31.688-132.41z" /></g>
+                    </svg>
+                    <span class="d-none d-md-inline">Blog</span>
+                </a>
+
+                <!-- More -->
+                <a class="text-white text-decoration-none" href="">
+                    <svg class="i-size-2 fill-white" version="1.1" viewBox="0 0 700 700">
+						<path d="m131.6 112v56h436.8v-56zm0 140v56h436.8v-56zm0 140v56h436.8v-56z" />
+					</svg>
+                    <span class="d-none d-md-inline">More</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="d-flex flex-column justify-content-end justify-content-md-center align-items-center top">
+        <h1 class="fw-bold text-white text-shadow1 text-center h3">
+            [EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND ARREA
+        </h1>
+        <div class="card bg-white p-4 bg-opacity-75 mt-4">
+            <h6 class="text-center mb-3">SEARCH EVENTS NEARBY</h6>
+            <form action="." class="input-group">
+                <input type="text" class="form-control" placeholder="Inser your location here" />
+                <input class="input-group-btn bg-prim text-white fw-bold" type="submit" value="Search" />
+            </form>
+        </div>
+        <a href="#" class="btn fw-bold bg-white bg-opacity-75 mt-4">How It Work</a>
+    </div>
+
+    <!-- Main-->
+    <section class="d-none d-md-block container-fluid p-5">
+        <h2 class="text-center fw-bold text-prim">
+            [Events] works in four simple steps
+        </h2>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="text-center fw-bold">
+                    <svg class="i-size-1" version="1.1" viewBox="0 0 700 700">
+                        <g><path d="m 292.69044,121.08546 c -16.836,0 -33.07501,6.23957 -45.58301,17.50927 -12.508,11.27 -20.39704,26.77205 -22.14405,43.51904 -1.74999,16.746 2.76919,33.54325 12.67969,47.15626 h 0.55664 l 47.60157,75.09375 c 1.5352,2.4141 4.19675,3.87059 7.05615,3.86279 2.8711,-0.004 5.54688,-1.45649 7.11328,-3.86279 l 47.77002,-75.09815 -0.005,0.005 c 9.9141,-13.613 14.43009,-30.41025 12.68409,-47.15625 -1.75001,-16.746 -9.64104,-32.24904 -22.14844,-43.51904 -12.50801,-11.27001 -28.74554,-17.50928 -45.58154,-17.50928 z m 0.25634,33.81005 c 9.02301,-0.0195 17.67825,3.55 24.06885,9.91699 6.3906,6.367 9.98438,15.01615 9.99609,24.03955 0.0117,9.02 -3.56542,17.6758 -9.94042,24.0586 -6.375,6.3829 -15.02787,9.96973 -24.05127,9.96973 l 10e-4,-0.001 c -8.996,-1e-5 -17.62597,-3.56637 -23.99707,-9.91407 -6.3711,-6.352 -9.96485,-14.96874 -9.9961,-23.96484 -0.0274,-9.02301 3.52733,-17.68364 9.89063,-24.08204 6.363,-6.39799 15.00443,-10.00292 24.02783,-10.02246 z"/><path d="m 579.6,471.63 -95.199,-100.8 h -0.004 c -4.1211,-4.3516 -9.8516,-6.8203 -15.848,-6.832 -7.4336,0.13672 -14.5,3.2656 -19.598,8.6797 l -1.2891,1.3438 -21.895,-23.016 c 34.82,-35.445 54.133,-83.27 53.691,-132.95 -0.44141,-49.688 -20.602,-97.16 -56.047,-131.98 -35.441,-34.82 -83.27,-54.133 -132.95,-53.691 -49.684,0.44141 -97.16,20.602 -131.98,56.047 -33.84,33.988 -53.355,79.66 -54.531,127.61 -1.1758,47.949 16.078,94.523 48.211,130.13 32.133,35.605 76.699,57.535 124.52,61.273 47.816,3.7344 95.242,-11.008 132.52,-41.195 l 23.07,24.246 0.004,0.004 c -3.7891,4.6562 -5.8125,10.5 -5.7188,16.5 0.0898,6 2.293,11.777 6.2227,16.316 l 95.199,100.8 c 4.1758,4.4453 10.023,6.9453 16.129,6.8867 7.4258,-0.17969 14.477,-3.3008 19.598,-8.6797 l 14,-14.617 c 4.8828,-4.6211 7.8008,-10.938 8.1562,-17.652 0.35547,-6.7109 -1.8828,-13.301 -6.25,-18.41 z M 407.56,337.51 c -26.977,26.957 -62.465,43.73 -100.42,47.457 -37.953,3.7305 -76.027,-5.8203 -107.73,-27.016 -31.707,-21.195 -55.086,-52.727 -66.148,-89.223 -11.066,-36.5 -9.1367,-75.703 5.4609,-110.94 14.5976,-35.237 40.961,-64.316 74.594,-82.297 33.637,-17.977 72.465,-23.738 109.87,-16.301 37.406,7.4414 71.074,27.617 95.273,57.094 24.199,29.48 37.43,66.438 37.434,104.57 -0.008,43.754 -17.391,85.711 -48.328,116.65 z"/></g>
+                    </svg>
+                    <br/> 1-Locate
+                </h3>
+                <p class="text-center">
+                    It's simple, on [Events] homepage, enter the name of the location you want to spend some good quality time with people and click on search.
+                </p>
+            </div>
+            <div class="col-6">
+                <h3 class="text-center fw-bold">
+                    <svg class="i-size-1" version="1.1" viewBox="0 0 700 700">
+                        <g><path d="m122.57 404.14c-20.477-20.457-20.477-53.777 0-74.234 9.9062-9.9219 23.102-15.383 37.117-15.383s27.211 5.4609 37.117 15.383l74.148 74.129 243.06-166.83c8.7148-6.0195 19.004-9.2227 29.68-9.2227 17.309 0 33.477 8.5039 43.297 22.785 7.9609 11.566 10.922 25.531 8.3633 39.324-2.5547 13.789-10.344 25.762-21.926 33.688l-279.02 191.5c-8.7656 6.0195-19.039 9.2227-29.699 9.2227-14.035 0-27.211-5.4609-37.137-15.383zm105-87.5c9.9062 9.9219 23.102 15.383 37.137 15.383 10.656 0 20.93-3.2031 29.699-9.2227l279.02-191.52c11.566-7.9453 19.355-19.898 21.926-33.688 2.5547-13.789-0.40234-27.754-8.3477-39.324-9.8008-14.262-25.988-22.785-43.312-22.785-10.656 0-20.965 3.2031-29.68 9.2227l-243.06 166.83-74.145-74.148c-9.9062-9.9219-23.102-15.379-37.117-15.379s-27.211 5.4609-37.117 15.383c-20.477 20.457-20.477 53.777 0 74.234z"/>
+                        </g>
+                    </svg>
+                    <br /> 2-Confirm or Create
+                </h3>
+                <p class="text-center">
+                    Go to check the events nearby the location you searched for and apply for any [Events] available. Every [gathering] has a subject, that you can search for too! If no [Events] are available on the location you selected, you can create and share your event.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3 class="fw-bold text-center">
+                    <svg class="i-size-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+                        <!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M408 120C408 174.6 334.9 271.9 302.8 311.1C295.1 321.6 280.9 321.6 273.2 311.1C241.1 271.9 168 174.6 168 120C168 53.73 221.7 0 288 0C354.3 0 408 53.73 408 120zM288 152C310.1 152 328 134.1 328 112C328 89.91 310.1 72 288 72C265.9 72 248 89.91 248 112C248 134.1 265.9 152 288 152zM425.6 179.8C426.1 178.6 426.6 177.4 427.1 176.1L543.1 129.7C558.9 123.4 576 135 576 152V422.8C576 432.6 570 441.4 560.9 445.1L416 503V200.4C419.5 193.5 422.7 186.7 425.6 179.8zM150.4 179.8C153.3 186.7 156.5 193.5 160 200.4V451.8L32.91 502.7C17.15 508.1 0 497.4 0 480.4V209.6C0 199.8 5.975 190.1 15.09 187.3L137.6 138.3C140 152.5 144.9 166.6 150.4 179.8H150.4zM327.8 331.1C341.7 314.6 363.5 286.3 384 255V504.3L192 449.4V255C212.5 286.3 234.3 314.6 248.2 331.1C268.7 357.6 307.3 357.6 327.8 331.1L327.8 331.1z"/>
+                    </svg>
+                    <br /> 3-Go
+                </h3>
+                <p class="text-center">
+                    Select the [Events], wait for the scheduled day and go! Be prepared to meet new people, create new connections and have a great time!
+                </p>
+            </div>
+            <div class="col-6">
+                <h3 class="fw-bold text-center">
+                    <svg class="i-size-1" version="1.1" viewBox="0 0 700 700"><g><path d="m481.25 166.25c-33.828 0-61.25-27.422-61.25-61.25s27.422-61.25 61.25-61.25 61.25 27.422 61.25 61.25-27.422 61.25-61.25 61.25z" fill-rule="evenodd"/><path d="m218.75 166.25c-33.828 0-61.25-27.422-61.25-61.25s27.422-61.25 61.25-61.25 61.25 27.422 61.25 61.25-27.422 61.25-61.25 61.25z" fill-rule="evenodd"/><path d="m350 306.25c-38.66 0-70.004-31.34-70.004-70.004 0-38.66 31.34-70.004 70.004-70.004 38.66 0 70.004 31.34 70.004 70.004 0 38.66-31.34 70.004-70.004 70.004z" fill-rule="evenodd"/><path d="m490.02 446.23c0-57.996-47.02-105-105.01-105h-69.996c-57.988 0-105.01 47.004-105.01 105v17.5c0 13.918 5.5391 27.277 15.379 37.125 9.8555 9.8477 23.199 15.375 37.129 15.375h175c13.926 0 27.27-5.5312 37.129-15.375 9.8359-9.8477 15.379-23.203 15.379-37.125z" fill-rule="evenodd"/><path d="m193.74 376.25h-44.984c-13.922 0-27.273-5.5312-37.125-15.375-9.8438-9.8516-15.375-23.203-15.375-37.125v-17.5c0-27.852 11.059-54.555 30.758-74.242 19.688-19.695 46.391-30.758 74.242-30.758h35c4.8398 0 9.6523 0.33203 14.395 0.98828-3.6562 10.668-5.6445 22.109-5.6445 34.012 0 29.504 12.199 56.191 31.824 75.266-35.387 10.012-65.074 33.574-83.09 64.734z" fill-rule="evenodd"/><path d="m449.36 202.23c4.7422-0.65625 9.5547-0.98828 14.395-0.98828h35c27.852 0 54.555 11.059 74.242 30.758 19.695 19.688 30.758 46.391 30.758 74.242v17.5c0 13.922-5.5312 27.273-15.375 37.125-9.8516 9.8438-23.203 15.375-37.125 15.375h-44.984c-18.016-31.16-47.703-54.723-83.09-64.734 19.625-19.074 31.824-45.762 31.824-75.266 0-11.898-1.9844-23.344-5.6445-34.012z" fill-rule="evenodd"/></g></svg>
+                    <br /> 4-Have a good time
+                </h3>
+
+                <p class="text-center">
+                    Once you are at the [Events] location, look for the host, enjoy and have fun!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="d-flex flex-column p-0">
+        <div class="d-flex align-items-center justify-content-between bg-prim text-white p-3 p-md-5 order-2 order-md-1">
+            <div class="pe-md-5 line">
+                <h4 class="fw-bold d-none d-md-block">[Events] near you</h4>
+                <p>
+                    Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests
+                </p>
+                <h4 class="fw-bold d-block d-md-none">[Events] near you</h4>
+                <a href="#" class="btn bg-md-white fw-bold text-prim rounded-0">
+					Find a [Events]</a>
+            </div>
+
+            <img class="d-none d-md-block rounded-circle groupr-i" src="./Assets/Images/group-2.jpg" alt="Events image" />
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between bg-gray2 text-white p-3 p-md-5 order-1 order-md-2">
+            <div class="pe-md-5 line">
+                <h4 class="fw-bold d-none d-md-block">[Events] connecting you</h4>
+                <p>
+                    You can create [Events] events around your area and share them with people you know and with whoever wants to connect
+                </p>
+                <h4 class="fw-bold d-block d-md-none">[Events] connecting you</h4>
+                <a href="#" class="btn bg-md-white fw-bold text-gray2 rounded-0">
+					learn more about [Events]</a>
+            </div>
+
+            <img class="d-none d-md-block rounded-circle groupr-i" src="./Assets/Images/group-3.jpg" alt="Events image" />
+        </div>
+
+        <div class="d-flex align-items-center justify-content-between bg-pblue text-white p-3 p-md-5 order-3">
+            <div class="pe-md-5 line">
+                <h4 class="fw-bold d-none d-md-block">[Events] spreding love</h4>
+                <p>let you meet new people, share interests and spreading love</p>
+                <h4 class="fw-bold d-block d-md-none">[Events] spreding love</h4>
+            </div>
+
+            <img class="d-none d-md-block rounded-circle groupr-i" src="./Assets/Images/group-4.jpg" alt="Events image" />
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="d-none d-md-block container-fluid bg-black p-5">
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <ul class="footer-link">
+                    <li>
+                        <a class="text-white text-decoration-none" href="">HOME</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-decoration-none" href="">SEARCH</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-decoration-none" href="">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-decoration-none" href="">ADVERTISE</a>
+                    </li>
+                </ul>
+
+                <a href="#">
+                    <svg id="localisation" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m 348.25,181.125 c -73.5,0 -133,59.5 -133,133 0,71.75 122.5,194.25 127.75,199.5 l 7,5.25 7,-5.25 c 5.25,-5.25 127.75,-126 127.75,-199.5 -3.5,-71.75 -63,-133 -136.5,-133 z m 0,173.25 c -21,0 -38.5,-17.5 -38.5,-38.5 0,-21 17.5,-38.5 38.5,-38.5 21,0 38.5,17.5 38.5,38.5 0,21 -17.5,38.5 -38.5,38.5 z"/> </svg>
+                </a>
+
+                <ul class="footer-link">
+                    <li>
+                        <a class="text-white text-decoration-none" href=""> FACEBOOK</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-decoration-none" href="">TWITTER</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-decoration-none" href="">INSTAGRAM</a>
+                    </li>
+                    <li>
+                        <a class="text-white text-decoration-none" href="">BLOG</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <h1 class="h3 fw-bold text-white">Suscribe</h1>
+                        <form action="." method="post" style="min-width: 300px; width: 50%; margin: auto">
+                            <input type="email" name="email" id="email" class="bg-black border-1 border-end-0 m-0" placeholder="Insert your e-mail here" /><input type="submit" value="send" class="bg-gray2 text-white fw-bold border-1 py-1 px-3 rounded m-0"
+                            />
+                        </form>
+                    </div>
+                    <div class="col-4 text-center fw-bold text-white">
+                        <h1 class="h3 fw-bold text-white">Contact</h1>
+                        <p>Have a question or sugestion?</p>
+                        <a class="text-decoration-none text-prim" href="mailto:contact@events.com">contact@events.com</a>
+                    </div>
+                    <div class="col-4 fw-bold text-white text-center">
+                        <h1 class="h3 fw-bold text-white">About</h1>
+                        [Events] is an online plateform that work to improve and icrease social life connectio, when this nightmare that we are curently living in is over
+                        <a class="text-decoration-none text-prim" href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center bg-gray-footer py-2">
+            <nav>
+                <ul class="bottom-link">
+                    <li><a href="#"><svg class="i-size-3 fill-gray1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
+                    </li>
+                    <li><a href="#"><svg class="i-size-3 fill-gray1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                    </li>
+                    <li><a href="#"><svg class="i-size-3 fill-gray1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                    </li>
+                    <li><a href="#"><svg class="i-size-3 fill-gray1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M309.8 480.3c-13.6 14.5-50 31.7-97.4 31.7-120.8 0-147-88.8-147-140.6v-144H17.9c-5.5 0-10-4.5-10-10v-68c0-7.2 4.5-13.6 11.3-16 62-21.8 81.5-76 84.3-117.1.8-11 6.5-16.3 16.1-16.3h70.9c5.5 0 10 4.5 10 10v115.2h83c5.5 0 10 4.4 10 9.9v81.7c0 5.5-4.5 10-10 10h-83.4V360c0 34.2 23.7 53.6 68 35.8 4.8-1.9 9-3.2 12.7-2.2 3.5.9 5.8 3.4 7.4 7.9l22 64.3c1.8 5 3.3 10.6-.4 14.5z"/></svg></a>
+                    </li>
+                    <li><a href="#"><svg class="i-size-3 fill-gray1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <p class="text-lgray m-0 ps-5">
+                &copy; 2020 [event], Inc. All rights reserved
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
